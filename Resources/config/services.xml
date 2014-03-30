@@ -3,8 +3,11 @@
            xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
            xsi:schemaLocation="http://symfony.com/schema/dic/services http://symfony.com/schema/dic/services/services-1.0.xsd">
 
+    <service id="mobile_detector" class="Detection\Mobile_Detection" public="false" />
+
     <service id="thormeier_mobile_detect.mobile_detect_extension" alias="mobile_detect_extension" class="Thormeier\MobileDetectBundle\Twig\MobileDetectExtension">
         <tag name="twig.extension"/>
+        <argument type="service" id="mobile_detector" />
     </service>
 
 </container>

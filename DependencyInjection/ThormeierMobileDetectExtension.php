@@ -9,6 +9,8 @@ use Symfony\Component\DependencyInjection\Loader;
 
 /**
  * Symfony2 DI extension
+ *
+ * @codeCoverageIgnore
  */
 class ThormeierMobileDetectExtension
 {
