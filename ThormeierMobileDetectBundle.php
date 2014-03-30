@@ -10,6 +10,8 @@ use Symfony\Component\HttpKernel\Bundle\Bundle;
  * Contributors:
  *      Boris Hofer (b.hofer@hotmail.ch)
  *      Pascal Thormeier (pascal.thormeier@gmail.com)
+ *
+ * @codeCoverageIgonre
  */
 class ThormeierMobileDetectBundle extends Bundle
 {
