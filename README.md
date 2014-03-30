@@ -1,7 +1,7 @@
 MobileDetectBundle
 ==================
 
-[![Build Status](https://travis-ci.org/thormeier/transport-client-bundle.png?branch=master)](https://travis-ci.org/thormeier/transport-client-bundle)
+[![Build Status](https://travis-ci.org/thormeier/MobileDetectBundle.png?branch=master)](https://travis-ci.org/thormeier/MobileDetectBundle)
 
 ## Introduction
 
