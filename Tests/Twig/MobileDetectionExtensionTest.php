@@ -10,7 +10,7 @@ use Thormeier\MobileDetectBundle\Twig\MobileDetectExtension;
 class MobileDetectionExtensionTest extends \PHPUnit_Framework_TestCase
 {
     /**
-     * @var Detection\Mobile_Detection
+     * @var Detection\MobileDetect
      */
     private $detector;
 
@@ -24,7 +24,7 @@ class MobileDetectionExtensionTest extends \PHPUnit_Framework_TestCase
      */
     public function setUp()
     {
-        $this->detector = $this->getMockBuilder('Detection\Mobile_Detection')
+        $this->detector = $this->getMockBuilder('Detection\MobileDetect')
             ->disableOriginalConstructor()
             ->setMethods(array('isMobile', 'isTablet'))
             ->getMock();
@@ -80,7 +80,7 @@ class MobileDetectionExtensionTest extends \PHPUnit_Framework_TestCase
             ->method('isMobile')
             ->will($this->returnValue($mobileOutcome));
 
-        // Standard PHP behaviour: if the first check terurns false, isTablet is never called
+        // Standard PHP behaviour: if the first check returns false, isTablet is never called
         if (false === $mobileOutcome) {
             $this->detector->expects($this->once())
                 ->method('isTablet')

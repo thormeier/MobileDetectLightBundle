@@ -5,7 +5,8 @@ MobileDetectBundle
 
 ## Introduction
 
-This Symfony2 bundle provides a few twig functions to check if the client is on a mobile or tablet device. This bundle makes use of the class provided by http://mobiledetect.net/.
+This Symfony2 bundle provides three twig functions to check if the client is on a mobile or tablet device. This bundle makes use of the class provided by http://mobiledetect.net/.
+This bundle is built to be as lightweight as possible to provide a possibility to alter Twig templates according to the clients device.
 
 ## Installation
 
@@ -26,3 +27,31 @@ This Symfony2 bundle provides a few twig functions to check if the client is on 
             // ...
         );
     }
+
+## Usage
+
+There are three new Twig functions provided by this bundle:
+
+### is_mobile()
+
+    // template.html.twig
+
+    {% if is_mobile() %}
+        {# do something that is only visible for mobile users, i.e. display an app store button or similar #}
+    {% endif %}
+
+### is_tablet()
+
+    // template.html.twig
+
+    {% if is_tablet() %}
+        {# do something for tablet users only #}
+    {% endif %}
+
+### is_desktop()
+
+    // template.html.twig
+
+    {% if is_desktop() %}
+        {# do something for desktop users only #}
+    {% endif %}

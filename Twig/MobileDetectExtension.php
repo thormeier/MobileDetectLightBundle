@@ -2,7 +2,7 @@
 
 namespace Thormeier\MobileDetectBundle\Twig;
 
-use Detection\Mobile_Detection;
+use Detection\MobileDetect;
 
 /**
  * Class for mobile detection wrapping
@@ -10,16 +10,16 @@ use Detection\Mobile_Detection;
 class MobileDetectExtension extends \Twig_Extension
 {
     /**
-     * @var Mobile_Detect
+     * @var MobileDetect
      */
     private $mobileDetector;
 
     /**
      * Class for mobile detection wrapping
      *
-     * @param Mobile_Detection $mobileDetector
+     * @param MobileDetect $mobileDetector
      */
-    public function __construct(Mobile_Detection $mobileDetector)
+    public function __construct(MobileDetect $mobileDetector)
     {
         $this->mobileDetector = $mobileDetector;
     }

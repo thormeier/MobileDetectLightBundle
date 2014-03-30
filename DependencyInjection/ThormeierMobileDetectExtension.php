@@ -12,7 +12,7 @@ use Symfony\Component\DependencyInjection\Loader;
  *
  * @codeCoverageIgnore
  */
-class ThormeierMobileDetectExtension
+class ThormeierMobileDetectExtension extends Extension
 {
     /**
      * {@inheritDoc}
@@ -20,6 +20,6 @@ class ThormeierMobileDetectExtension
     public function load(array $configs, ContainerBuilder $container)
     {
         $loader = new Loader\XmlFileLoader($container, new FileLocator(__DIR__.'/../Resources/config'));
-        $loader->load('services.yml');
+        $loader->load('services.xml');
     }
 } 

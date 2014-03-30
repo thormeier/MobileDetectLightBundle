@@ -3,12 +3,23 @@
     "type": "symfony-bundle",
     "description": "Symfony2 bundle for easy usage of mobiledetect class in Twig http://mobiledetect.net/",
     "license": "MIT",
+    "authors": [
+        {
+            "name": "Boris Hofer",
+            "email": "b.hofer@hotmail.ch",
+            "role": "Developer"
+        },
+        {
+            "name": "Pascal Thormeier",
+            "email": "pascal.thormeier@gmail.com",
+            "role": "Developer"
+        }
+    ],
     "autoload": {
         "psr-0": { "Thormeier\\MobileDetectBundle": "" }
     },
     "require": {
         "php": ">=5.3.3",
-        "symfony/yaml": "2.*",
         "symfony/framework-bundle": "2.*",
         "mobiledetect/mobiledetectlib": "dev-master"
     },
