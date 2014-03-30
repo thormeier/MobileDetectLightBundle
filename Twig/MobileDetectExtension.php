@@ -25,6 +25,8 @@ class MobileDetectExtension extends \Twig_Extension
     }
 
     /**
+     * @codeCoverageIgnore
+     *
      * @return string
      */
     public function getName()
@@ -33,6 +35,8 @@ class MobileDetectExtension extends \Twig_Extension
     }
 
     /**
+     * @codeCoverageIgnore
+     *
      * @return array
      */
     public function getFunctions()
