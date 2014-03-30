@@ -11,7 +11,7 @@ This Symfony2 bundle provides a few twig functions to check if the client is on 
 
 ### Step 1: Composer require
 
-    $ php composer.phar require "thormeier/MobileDetectBundle":"1.0.*"
+    $ php composer.phar require "thormeier/mobile-detect-bundle":"1.0.*"
 
 ### Step2: Enable the bundle in the kernel
 
