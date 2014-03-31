@@ -18,16 +18,10 @@
     "autoload": {
         "psr-0": { "Thormeier\\MobileDetectLightBundle": "" }
     },
-    "repositories": [
-        {
-            "type": "git",
-            "url": "https://github.com/serbanghita/Mobile-Detect.git"
-        }
-    ],
     "require": {
         "php": ">=5.3.3",
         "symfony/framework-bundle": "2.*",
-        "mobiledetect/mobiledetectlib": "dev-master"
+        "mobiledetect/mobiledetectlib": "2.*"
     },
     "require-dev": {
         "twig/twig": "1.15.*@dev"
