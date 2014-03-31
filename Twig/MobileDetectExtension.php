@@ -1,6 +1,6 @@
 <?php
 
-namespace Thormeier\MobileDetectBundle\Twig;
+namespace Thormeier\MobileDetectLightBundle\Twig;
 
 use Detection\MobileDetect;
 

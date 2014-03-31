@@ -1,6 +1,6 @@
 <?php
 
-namespace Thormeier\MobileDetectBundle\DependencyInjection;
+namespace Thormeier\MobileDetectLightBundle\DependencyInjection;
 
 use Symfony\Component\DependencyInjection\ContainerBuilder;
 use Symfony\Component\Config\FileLocator;
@@ -12,7 +12,7 @@ use Symfony\Component\DependencyInjection\Loader;
  *
  * @codeCoverageIgnore
  */
-class ThormeierMobileDetectExtension extends Extension
+class ThormeierMobileDetectLightExtension extends Extension
 {
     /**
      * {@inheritDoc}

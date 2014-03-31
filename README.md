@@ -1,7 +1,7 @@
-MobileDetectBundle
-==================
+MobileDetectLightBundle
+=======================
 
-[![Build Status](https://travis-ci.org/thormeier/MobileDetectBundle.png?branch=master)](https://travis-ci.org/thormeier/MobileDetectBundle)
+[![Build Status](https://travis-ci.org/thormeier/MobileDetectLightBundle.png?branch=master)](https://travis-ci.org/thormeier/MobileDetectLightBundle)
 
 ## Introduction
 
@@ -12,7 +12,7 @@ This bundle is built to be as lightweight as possible to provide a possibility t
 
 ### Step 1: Composer require
 
-    $ php composer.phar require "thormeier/mobile-detect-bundle":"1.0.*"
+    $ php composer.phar require "thormeier/mobile-detect-bundle-light":"1.0.*"
 
 ### Step2: Enable the bundle in the kernel
 
@@ -23,7 +23,7 @@ This bundle is built to be as lightweight as possible to provide a possibility t
     {
         $bundles = array(
             // ...
-            new Thormeier\MobileDetectBundle\ThormeierMobileDetectBundle(),
+            new Thormeier\MobileDetectLightBundle\ThormeierMobileDetectLightBundle(),
             // ...
         );
     }

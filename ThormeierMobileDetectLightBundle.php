@@ -1,6 +1,6 @@
 <?php
 
-namespace Thormeier\MobileDetectBundle;
+namespace Thormeier\MobileDetectLightBundle;
 
 use Symfony\Component\HttpKernel\Bundle\Bundle;
 
@@ -13,6 +13,6 @@ use Symfony\Component\HttpKernel\Bundle\Bundle;
  *
  * @codeCoverageIgonre
  */
-class ThormeierMobileDetectBundle extends Bundle
+class ThormeierMobileDetectLightBundle extends Bundle
 {
 } 

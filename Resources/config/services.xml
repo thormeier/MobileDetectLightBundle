@@ -7,7 +7,7 @@
         <service id="mobile_detector" class="Detection\MobileDetect" public="false" />
 
         <!-- Actual twig extension -->
-        <service id="thormeier_mobile_detect.mobile_detect_extension" class="Thormeier\MobileDetectBundle\Twig\MobileDetectExtension">
+        <service id="thormeier_mobile_detect_light.mobile_detect_extension" class="Thormeier\MobileDetectLightBundle\Twig\MobileDetectExtension">
             <tag name="twig.extension"/>
             <argument type="service" id="mobile_detector" />
         </service>

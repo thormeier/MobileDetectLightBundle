@@ -1,8 +1,8 @@
 <?php
 
-namespace Thormeier\MobileDetectBundle\Tests\Twig;
+namespace Thormeier\MobileDetectLightBundle\Tests\Twig;
 
-use Thormeier\MobileDetectBundle\Twig\MobileDetectExtension;
+use Thormeier\MobileDetectLightBundle\Twig\MobileDetectExtension;
 
 /**
  * Test for twig extension

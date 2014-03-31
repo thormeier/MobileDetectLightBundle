@@ -16,7 +16,7 @@
         }
     ],
     "autoload": {
-        "psr-0": { "Thormeier\\MobileDetectBundle": "" }
+        "psr-0": { "Thormeier\\MobileDetectLightBundle": "" }
     },
     "require": {
         "php": ">=5.3.3",
@@ -26,6 +26,6 @@
     "require-dev": {
         "twig/twig": "1.15.*@dev"
     },
-    "target-dir": "Thormeier/MobileDetectBundle",
+    "target-dir": "Thormeier/MobileDetectLightBundle",
     "minimum-stability": "dev"
 }
