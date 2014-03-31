@@ -12,7 +12,7 @@ This bundle is built to be as lightweight as possible to provide a possibility t
 
 ### Step 1: Composer require
 
-    $ php composer.phar require "thormeier/mobile-detect-bundle-light":"1.0.*"
+    $ php composer.phar require "thormeier/mobile-detect-light-bundle":"1.0.*"
 
 ### Step2: Enable the bundle in the kernel
 
