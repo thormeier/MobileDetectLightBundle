@@ -1,5 +1,5 @@
 {
-    "name": "thormeier/mobile-detect-bundle-light",
+    "name": "thormeier/mobile-detect-light-bundle",
     "type": "symfony-bundle",
     "description": "Symfony2 bundle for easy usage of mobiledetect class in Twig http://mobiledetect.net/",
     "license": "MIT",
